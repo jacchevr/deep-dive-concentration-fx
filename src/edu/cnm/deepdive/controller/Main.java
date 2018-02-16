@@ -149,7 +149,7 @@ public class Main implements EventHandler<ActionEvent> {
   @FXML
   private void newGame(ActionEvent event) {
     tileTable.getChildren().clear();
-    //Collections.shuffle(tiles);
+    Collections.shuffle(tiles);
     welcomeSound();
     for (ToggleButton tile : tiles) {
       tile.setSelected(false);

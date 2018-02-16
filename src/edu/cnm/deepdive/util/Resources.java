@@ -9,7 +9,7 @@ public class Resources {
 
   /** Directory containing images. */
   public static final String IMAGE_DIRECTORY = BASE_DIRECTORY + "images/";
-  /** Directory containig FXML layout files. */
+  /** Directory containing FXML layout files. */
   public static final String LAYOUT_DIRECTORY = BASE_DIRECTORY + "layouts/";
   /** Directory containing {@link java.util.ResourceBundle} properties files. */
   public static final String STRING_DIRECTORY = BASE_DIRECTORY + "strings/";
